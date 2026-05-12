@@ -7,6 +7,10 @@
 **Notebooks (executed, with embedded outputs):**
 - `01_replication.ipynb` — Core replication: Figures 1A-D, 2A-C, Poisson regressions, matching, key stats
 - `02_critical_review_extensions.ipynb` — Critical review + blueprints for 4 extensions
+- `05_temple_impact_analysis.ipynb` — Temple-focused training grant and impact analysis
+
+**R analyses:**
+- `06_under_overperformers.R` — Named NIH training-output over/underperformer scorecard, Temple labor-obligation profile, and anonymized Zhang productivity residuals
 
 **Python source files (for editing):**
 - `01_replication.py` — Same as notebook 1, in script format (convert with `jupytext --to notebook`)
@@ -24,6 +28,15 @@
 - `ext1_temporal_proxy.png` — Cross-sectional proxy for temporal analysis
 - `ext2_vpr_proxy.png` — Productivity variance by prestige (VPR proxy)
 - `ext4_inefficiency.png` — Scatter identifying high-labor/low-productivity departments
+- `figures/under_over_temple_labor_mix.png` — Temple's doctoral funding mix vs. same-Carnegie peers
+- `figures/under_over_fellowship_residuals.png` — Named institution F31/F32 residual over/underperformers
+- `figures/under_over_zhang_anonymous_residuals.png` — Anonymous Zhang productivity residuals
+
+**Generated scorecards:**
+- `outputs/under_overperformers/institution_training_scorecard.csv`
+- `outputs/under_overperformers/temple_summary.csv`
+- `outputs/under_overperformers/zhang_department_residuals_anonymized.csv`
+- `outputs/under_overperformers/under_overperformer_summary.md`
 
 ### Notes
 - The replication uses Python (statsmodels, scipy, sklearn) rather than R
