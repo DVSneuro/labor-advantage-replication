@@ -1,0 +1,62 @@
+project:
+  start_year: 2008
+  end_year: 2024
+  retrieval_user_agent: "research-labor-returns/0.1 (+https://github.com/DVSneuro/labor-advantage-replication)"
+
+zhang2022:
+  organization: Zenodo
+  record_url: "https://zenodo.org/api/records/7126263"
+  doi: "10.5281/zenodo.7126263"
+  file_name: "code-and-data.tar.gz"
+  expected_md5: "1a41f29c40077646c9eece9c86bd3bb1"
+  release_year: 2022
+  license_notes: "Zenodo record is licensed CC BY 4.0."
+  documentation_url: "https://zenodo.org/records/7126263"
+
+gss:
+  organization: "NSF National Center for Science and Engineering Statistics"
+  landing_url: "https://ncses.nsf.gov/explore-data/microdata/graduate-students-postdoctorates-s-e"
+  file_url_template: "https://ncses.nsf.gov/826/assets/0/files/graduate_students_postdocs_{year}.zip"
+  documentation_url: "https://ncses.nsf.gov/826/assets/0/files/gss-2024-puf-user-guide.pdf"
+  availability_url: "https://ncses.nsf.gov/826/assets/0/files/gss-2024-puf-user-guide-appendix-a.pdf"
+  dictionary_url: "https://ncses.nsf.gov/826/assets/0/files/gss-2024-puf-user-guide-appendix-b.xlsx"
+  available_years: [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+  license_notes: "Public-use institution/unit count data; NCSES states public-use files contain no individually identifiable information."
+
+herd:
+  organization: "NSF National Center for Science and Engineering Statistics"
+  landing_url: "https://ncses.nsf.gov/explore-data/microdata/higher-education-research-development"
+  file_url_template: "https://ncses.nsf.gov/821/assets/0/files/higher_education_r_and_d_{year}.zip"
+  short_file_url_template: "https://ncses.nsf.gov/821/assets/0/files/higher_education_r_and_d_{year}_short.zip"
+  short_file_start_year: 2012
+  documentation_url: "https://ncses.nsf.gov/821/assets/0/files/fy-2024-herd-dug-text-file-format.pdf"
+  available_years: [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+  license_notes: "NCSES public-use institution-level data; files include publicly releasable values and status flags."
+
+ipeds:
+  organization: "U.S. Department of Education, National Center for Education Statistics"
+  landing_url: "https://nces.ed.gov/ipeds/use-the-data/usethedata"
+  documentation_url: "https://nces.ed.gov/ipeds/help/complete-data-files"
+  base_url: "https://nces.ed.gov/ipeds/datacenter/data"
+  available_years: [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+  components:
+    directory: "HD{year}"
+    enrollment: "EF{year}A"
+    employees_by_assigned_position: "EAP{year}"
+    finance_public: "F{start2}{end2}_F1A"
+    finance_private_nonprofit: "F{start2}{end2}_F2"
+  license_notes: "Public federal statistical data. Use final/revised releases when available and retain release status from the downloaded file."
+
+bea_gdp_deflator:
+  organization: "U.S. Department of Commerce, Bureau of Economic Analysis"
+  file_url: "https://apps.bea.gov/national/Release/TXT/FlatFiles.ZIP"
+  documentation_url: "https://www.bea.gov/data/prices-inflation/gdp-price-deflator"
+  release_year: 2026
+  license_notes: "Public U.S. federal statistical data. NIPA table 1.1.9, GDP implicit price deflator."
+
+openalex:
+  organization: OpenAlex
+  api_url: "https://api.openalex.org"
+  documentation_url: "https://docs.openalex.org"
+  release_year: null
+  license_notes: "OpenAlex data are CC0. Systematic API requests use OPENALEX_API_KEY; optional contact metadata comes from OPENALEX_EMAIL."

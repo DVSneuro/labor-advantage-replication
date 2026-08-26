@@ -1,0 +1,45 @@
+# GSS counts are unit-level and are summed to reporting institution-year.
+# A missing source column is structural missingness, never zero.
+eras:
+  - start: 2008
+    end: 2016
+    variables:
+      graduate_students: [pt_tot_all_races_v, ft_tot_all_races_v]
+      doctoral_students: null
+      full_time_doctoral_students: null
+      research_assistants: [ft_rsch_asst_all_srces_v]
+      doctoral_research_assistants: null
+      teaching_assistants: [ft_tchg_asst_all_srces_v]
+      fellowship_students: [ft_felshp_all_srces_v]
+      traineeship_students: [ft_trneeshp_all_srces_v]
+      postdocs: [pd_tot_all_srces_v]
+      federally_supported_postdocs: [pd_tot_fed_all_srces_v]
+      nonfederally_supported_postdocs: [pd_tot_nonfed_all_srces_v]
+      institution_supported_students: [ft_tot_nonfed_inst_sup_v]
+      self_supported_students: [ft_tot_self_sup_v]
+      federally_supported_students:
+        - ft_tot_fed_dod_v
+        - ft_tot_fed_hhs_nih_v
+        - ft_tot_fed_hhs_oth_v
+        - ft_tot_fed_nsf_v
+        - ft_tot_fed_doa_v
+        - ft_tot_fed_nasa_v
+        - ft_tot_fed_doe_v
+        - ft_tot_fed_oth_v
+  - start: 2017
+    end: 2024
+    variables:
+      graduate_students: [pt_tot_all_races_v, ft_tot_all_races_v]
+      doctoral_students: [dr_pt_tot_all_races_v, dr_ft_tot_all_races_v]
+      full_time_doctoral_students: [dr_ft_tot_all_races_v]
+      research_assistants: [ft_ra_all_v]
+      doctoral_research_assistants: [dr_ft_ra_all_v]
+      teaching_assistants: [ft_ta_all_v]
+      fellowship_students: [ft_fel_all_v]
+      traineeship_students: [ft_trn_all_v]
+      postdocs: [pd_tot_all_v]
+      federally_supported_postdocs: [pd_tot_fed_all_v]
+      nonfederally_supported_postdocs: [pd_tot_nfed_all_v]
+      institution_supported_students: [ft_tot_nfed_inst_v]
+      self_supported_students: [ft_tot_self_sup_v]
+      federally_supported_students: [ft_tot_fed_all_v]

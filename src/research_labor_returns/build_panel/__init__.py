@@ -1,0 +1,1 @@
+"""Merge validated source panels."""

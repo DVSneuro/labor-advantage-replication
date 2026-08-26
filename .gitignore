@@ -210,3 +210,24 @@ __marimo__/
 /local-data/
 /data/NSFdata.zip
 /data/*.zip
+
+# Reproducible pipeline outputs and local credentials
+/data/raw/**
+/data/interim/**
+/data/processed/**
+!/data/raw/.gitkeep
+!/data/interim/.gitkeep
+!/data/processed/.gitkeep
+/outputs/figures/**
+/outputs/tables/**
+/outputs/models/**
+!/outputs/figures/.gitkeep
+!/outputs/tables/.gitkeep
+!/outputs/models/.gitkeep
+!/outputs/figures/zhang_funded_labor_by_prestige.png
+!/outputs/figures/zhang_group_size_productivity.png
+!/outputs/tables/zhang_public_poisson_coefficients.csv
+!/outputs/tables/gss_herd_match_rates_by_year.csv
+!/outputs/tables/missingness_by_source_year.csv
+.DS_Store
+*.part

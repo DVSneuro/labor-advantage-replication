@@ -1,0 +1,8 @@
+canonical_institution_name,ipeds_unitid,gss_identifier,herd_identifier,openalex_institution_id,ror_id,historical_institution_names,system_campus_notes,first_valid_year,last_valid_year,manually_reviewed_flag
+Temple University,216339,943,3371,I84392919,00kx1jb78,,Campus-level identity; exclude Temple University Hospital and Temple University Health System,2008,2024,true
+Rutgers University-New Brunswick,186380,1080,6964,,,Rutgers The State University of New Jersey,IPEDS/GSS/HERD are New Brunswick campus-specific; current OpenAlex/ROR candidate is a system aggregate and is intentionally not accepted,2008,2024,true
+University of Illinois Chicago,145600,678,1776,I39422238,02mpq6x41,University of Illinois at Chicago,Campus-level identity; exclude Rockford campus and University of Illinois System,2008,2024,true
+University of California Los Angeles,110662,785,1315,I161318765,046rm7j60,University of California Los Angeles,Campus-level identity; exclude University of California system,2008,2024,true
+University of Michigan-Ann Arbor,170976,1107,2325,I27837315,00jmfr291,University of Michigan,IPEDS/HERD campus is Ann Arbor; OpenAlex/ROR label omits campus but record resolves the Ann Arbor flagship,2008,2024,true
+University of Wisconsin-Madison,240444,1033,3895,I135310074,01y2jtd41,University of Wisconsin Madison,Campus-level identity; exclude University of Wisconsin System,2008,2024,true
+The Ohio State University-Main Campus,204796,1095,8802,I52357470,00rs6vg23,"Ohio State University, The",HERD 2024 omits IPEDS UNITID and requires reviewed deterministic linkage to main campus; exclude Wexner Medical Center and hospital,2008,2024,true

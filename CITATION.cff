@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it and the Zhang et al. source article."
+title: "Marginal Returns to Graduate and Postdoctoral Research Labor"
+type: software
+authors:
+  - family-names: Smith
+    given-names: David V.
+repository-code: "https://github.com/DVSneuro/labor-advantage-replication"
+license: MIT
+version: 0.1.0
+date-released: 2026-08-26
+references:
+  - type: article
+    title: "Labor advantages drive the greater productivity of faculty at elite universities"
+    authors:
+      - family-names: Zhang
+        given-names: Sam
+      - family-names: Wapman
+        given-names: K. Hunter
+      - family-names: Larremore
+        given-names: Daniel B.
+      - family-names: Clauset
+        given-names: Aaron
+    year: 2022
+    journal: Science Advances
+    doi: 10.1126/sciadv.abq7056

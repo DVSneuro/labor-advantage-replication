@@ -1,0 +1,9 @@
+name: research-labor-returns
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - xlrd>=2.0,<3
+  - pip:
+      - -e .[dev]

@@ -1,0 +1,24 @@
+random_seed: 20260826
+analysis_years:
+  start: 2010
+  end: 2024
+source_years:
+  start: 2008
+  end: 2024
+ipeds_years:
+  start: 2008
+  end: 2023
+publication_lags: [0, 1, 2, 3]
+labor:
+  core: [research_assistants, postdocs]
+  broad: [research_assistants, fellowship_trainee_students, postdocs]
+pre_period:
+  start: 2008
+  end: 2012
+institution_strata_quantiles: [0.333333, 0.666667]
+document_types_include: [article, preprint]
+document_types_separate: [book-chapter, dissertation]
+document_types_exclude: [editorial, correction, letter, review]
+openalex:
+  fractional_counting: true
+  full_count_sensitivity: true
